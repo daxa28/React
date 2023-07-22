@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: url(./img/09fdadd375067f697ee7fffd7e3fafb513.jpg);
+  background-repeat: repeat-y;
+  background-size: 100%;
+  --y-color: rgba(253, 207, 0);
+}
+
+#root {
+  font-family: "Segoe UI";
+  background: rgb(47, 47, 47);
+  background: url(./img/09fda375067f697ee7fffd7e3fafb513.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.content_app {
+  margin: 20px auto;
+  padding: 5px 15px 10px;
+  width: 750px;
+}
+
+.content_app h1 {
+  text-align: center;
+  color: #fff;
+  font-family: "Abril Fatface", cursive;
+  font-size: 54px;
+}
+
+input[type="checkbox"] {
+  accent-color: var(--y-color);
+}
+
+input {
+  padding: 2px 5px;
+  background-color: rgba(65, 60, 0, 0.6);
+  margin-right: 5px;
+  border-radius: 3px;
+  border: 1px solid var(--y-color);
+  min-height: 28px;
+  font-size: 18px;
+  color: #fff;
+  font-family: "Segoe UI";
+  /* font-family: "Pacifico", cursive; */
+}
+
+input:focus {
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+}
+
+.about_app {
+  background-color: rgba(190, 190, 170, 0.8);
+  margin: 60px 20px 30px 20px;
+  padding: 20px 40px;
+  text-align: justify;
+}
+
+.button {
+  padding: 2px 5px;
+  border: none;
+  background-color: var(--y-color);
+  border: 1px solid var(--y-color);
+  margin: 10px 10px 10px 0;
+  border-radius: 3px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+  font-size: 16px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: rgba(65, 60, 0);
+  border: 1px solid #fff;
+  color: white;
+}
+
+.end {
+  margin-left: auto;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid var(--y-color);
+  border-color: var(--y-color) transparent var(--y-color) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+li:hover {
+  box-shadow: -0px 0px 3px 1px rgba(190, 190, 170);
+}
